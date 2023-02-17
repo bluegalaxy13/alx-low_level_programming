@@ -18,5 +18,6 @@ int main(void)
 		/*putchar('\n');*/
 	}
 
+	printf(" ");
 	return (0);
 }
