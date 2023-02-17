@@ -15,9 +15,8 @@ int main(void)
 	for (low = 'a'; low <= 'z'; low++)
 	{
 		putchar(low);
-		/*putchar('\n');*/
 	}
-
-	printf(" ");
+	
+	putchar('\n');
 	return (0);
 }
