@@ -5,19 +5,17 @@
  * @c: An input character
  * Return: 1 if c is uppercase or 0 otherwise
  */
-int _isupper(int c)
+int _isupper(char c)
 {
-	char uppercase = 'A';
-	int isupper = 0;
+	char uppercase;
 
-	for (; uppercase <= 'Z'; uppercase++)
+	for (uppercase = 'A'; uppercase <= 'Z'; uppercase++)
 	{
 		if (c == uppercase)
 		{
-			isupper = 1;
-			break;
+			return(1);
 		}
 	}
 
-	return (isupper);
+	return (0);
 }
