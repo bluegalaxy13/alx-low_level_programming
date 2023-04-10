@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_binary - A function that prints a binary number without % or /
- * @n: The number to be printed
+ * print_binary - prints a binary number without % or /
+ * @n: number to be printed
  * Return: Nothing
  */
 void print_binary(unsigned long int n)
 {
-	unsigned int flag = 0, max = 32768; /* 1000 0000 0000 0000 */
+	unsigned int flag = 0, max = 32768;
 
 	if (n == 0)
 	{
