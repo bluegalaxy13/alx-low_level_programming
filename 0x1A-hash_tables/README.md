@@ -61,6 +61,7 @@ typedef struct hash_table_s
 *    Returns a pointer to the newly created hash table
 *    If something went wrong, your function should return NULL
 
+
 ```
 julien@ubuntu:~/0x1A. Hash tables$ cat 0-main.c 
 #include <stdlib.h>
